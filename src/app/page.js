@@ -54,7 +54,7 @@ export default function Home() {
       <div className="w-full bg-trees p-5 sm:p-20">
         <div className="max-w-screen-xl bg-cream p-10 sm:p-20 my-5 sm:my-10 mx-auto flex flex-col gap-y-4 items-center text-center">
           <h2 className="text-slate text-4xl lg:text-6xl">Take the power of your dollar back.</h2>
-          <h3 className="text-olive text-lg w-4/5"><strong>TYPICAL BRANDS AREN'T DOING ENOUGH TO HELP COMBAT THE WORLD'S LARGEST ISSUES.</strong></h3>
+          <h3 className="text-olive text-lg w-4/5"><strong>TYPICAL BRANDS AREN&apos;T DOING ENOUGH TO HELP COMBAT THE WORLD'S LARGEST ISSUES.</strong></h3>
           <p className="text-gray w-4/5 tracking-wide">By purchasing products with the Profit For Good seal, your dollar will be going directly into the pockets of our Charity Partners. You get the product or service you need at no extra cost all while helping end injustices within Gloabl Health and Development, Farmed Animal Welfare, and Environmentalism.</p>
           <div>
             <button className="mb-5 lg:mb-0 lg:me-3 bg-orange w-60 h-12 text-white border-orange border-2 hover:drop-shadow-2xl hover:bg-white hover:text-orange"><h3>DONATE TODAY</h3></button>
@@ -122,11 +122,8 @@ export default function Home() {
 
       <div className="flex">
       <div className="sm:w-1/2 bg-texture">
-          <div className="max-w-screen-sm mx-auto h-full space-y-10 flex flex-col p-12">
-            <h1 className="text-cream text-4xl lg:text-7xl">Every dollar for <span className="fraunces-i">people </span>& the <span className="fraunces-i">planet.</span></h1>
-            <h3 className="text-slate xl:text-xl">ELIMINATE GLOBAL INJUSTICES BY BUYING FROM PROFT FOR GOODS (PFGS) - BRAND THAT DONATE 90%+ OF THEIR PROFITS TO CHARITABLE CAUSES.</h3>
-            <h4 className="text-cream">Our Nonprofit is dedicated to creating a seamless pathway for individuals to support charities through everyday spending.</h4>
-            <button className="bg-orange w-60 h-12 text-white border-orange border-2 hover:drop-shadow-2xl hover:bg-white hover:text-orange"><h3>DONATE TODAY</h3></button>
+          <div className="max-w-screen-sm mx-auto h-full space-y-10 flex flex-col p-12 text-cream">
+            <h1>How it Works</h1>
           </div>
         </div>
 
@@ -144,28 +141,3 @@ export default function Home() {
     </>
   )
 }
-// export default function Home() {
-//   return (
-//     <>
-//     <div className="flex flex-wrap h-screen">
-//       <div className="basis-1/2 bg-texture">
-//         <div className="max-w-screen-sm mx-auto h-full space-y-10 flex flex-col justify-end p-12">
-//           <h1 className="text-cream text-4xl lg:text-7xl">Every dollar for <span className="fraunces-i">people </span>& the <span className="fraunces-i">planet.</span></h1>
-//           <h3 className="text-slate xl:text-xl">ELIMINATE GLOBAL INJUSTICES BY BUYING FROM PROFT FOR GOODS (PFGS) - BRAND THAT DONATE 90%+ OF THEIR PROFITS TO CHARITABLE CAUSES.</h3>
-//           <h4 className="text-cream">Our Nonprofit is dedicated to creating a seamless pathway for individuals to support charities through everyday spending.</h4>
-//           <button className="bg-orange"><p className="text-cream">DONATE TODAY</p></button>
-//         </div>
-//       </div>
-//       <div className="basis-1/2 flex justify-center content-center">
-//         <Image 
-//         src={children}
-//         alt="picture of happy children"
-//         />
-//       </div>
-//           <Image src={pledge}/>
-//           <p>01. TAKE THE PLEDGE</p>  
-//     </div>
-
-//     </>
-//   )
-// }

@@ -54,7 +54,7 @@ export default function Home() {
       <div className="w-full bg-trees p-5 sm:p-20">
         <div className="max-w-screen-xl bg-cream p-10 sm:p-20 my-5 sm:my-10 mx-auto flex flex-col gap-y-4 items-center text-center">
           <h2 className="text-slate text-4xl lg:text-6xl">Take the power of your dollar back.</h2>
-          <h3 className="text-olive text-lg w-4/5"><strong>TYPICAL BRANDS AREN&apos;T DOING ENOUGH TO HELP COMBAT THE WORLD'S LARGEST ISSUES.</strong></h3>
+          <h3 className="text-olive text-lg w-4/5"><strong>TYPICAL BRANDS AREN&apos;T DOING ENOUGH TO HELP COMBAT THE WORLD&apos;S LARGEST ISSUES.</strong></h3>
           <p className="text-gray w-4/5 tracking-wide">By purchasing products with the Profit For Good seal, your dollar will be going directly into the pockets of our Charity Partners. You get the product or service you need at no extra cost all while helping end injustices within Gloabl Health and Development, Farmed Animal Welfare, and Environmentalism.</p>
           <div>
             <button className="mb-5 lg:mb-0 lg:me-3 bg-orange w-60 h-12 text-white border-orange border-2 hover:drop-shadow-2xl hover:bg-white hover:text-orange"><h3>DONATE TODAY</h3></button>

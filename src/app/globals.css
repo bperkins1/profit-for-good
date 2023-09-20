@@ -2,26 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/*the plain css way of importing font.*/
+
+@font-face {
+  font-family: "Fraunces";
+  src: 
+  url('../../public/Fonts/Fraunces/Fraunces-VariableFont.ttf') format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face{
+  font-family: "Fraunces-i";
+  src: url('../../public/Fonts/Fraunces/Fraunces-Italic-VariableFont.ttf') format("truetype");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "Lexend";
+  src: 
+  url('../../public/Fonts/Lexend_Giga/LexendGiga-VariableFont.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: 
+  url('../../public/Fonts/Helvetica/Helvetica-Neue-Regular.otf') format("opentype");
+}
+
+
+h1 {
+  font-family: "Fraunces", serif;
+/*  font-size: 120px;
+  line-height: 120px;*/
+}
+
+
+h2 {
+  font-family: "Fraunces", serif;
+/*  font-size: 70px;
+  line-height: 80px;*/
+}
+
+
+h3 {
+  font-family: "Lexend", sans-serif;
+/*  font-size: 28px;
+  line-height: 36px;*/
+}
+
+
+h4 {
+  font-family: "Lexend", sans-serif;
+/*  font-size: 20px;
+  line-height: 26px;*/
+}
+
+p {
+ font-family: "Helvetica";
+/* font-size: 20px;
+ line-height: 26px;*/
+}
+
+.fraunces-i {
+  font-family: Fraunces-i;
 }

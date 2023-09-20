@@ -8,11 +8,20 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'texture': "url('../../public/texture.jpg')",
+        'trees': "url('../../public/trees.jpg')"
       },
+      colors: {
+        'forest': '#373929',
+        'olive': '#696636',
+        'slate': '#949F94',
+        'gray': '#707070',
+        'orange': '#BA6027',
+        'cream': '#F3F1EB',
+      }
     },
   },
   plugins: [],
 }
+
+// using filepath as if it is in globals.css file.

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,7 +10,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'texture': "url('../../public/texture.jpg')",
-        'trees': "url('../../public/trees.jpg')"
+        'trees': "url('../../public/trees.jpg')",
+        'water': "url('../../public/water.jpg')",
       },
       colors: {
         'forest': '#373929',
@@ -21,7 +23,9 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    ],
 }
 
 // using filepath as if it is in globals.css file.

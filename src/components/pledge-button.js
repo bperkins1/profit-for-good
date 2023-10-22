@@ -22,39 +22,30 @@ export default function Pledge({ text, classes }){
 	nested
 	>
 	   {close => (
-      <div className="flex flex-wrap justify-center content-center text-center sm:text-start w-4/5 sm:w-1/2 bg-cream rounded mx-auto">
+      <div className="popup-content flex flex-wrap justify-center content-center text-center sm:text-start w-4/5 sm:w-1/2 bg-cream rounded mx-auto border border-forest">
         
         <h2 className="text-cream rounded w-full bg-forest text-center p-5"> Profit For Good Pledge </h2>
         <div className="p-7">
           {' '}
-          <p>
+          <p className="sm:indent-6">
           I realize that my purchases have the power to do good. My purchases can save lives, lift
           people out of poverty, save our environment, and otherwise promote amorejust and happy
           world for all. I understand that in buying from Profit for Good businesses, I can be a part of
           directing our species' proftis toward creating the world we want to see.	
           </p>
-          <p>
-          Therefore, I pledge to consider where the profits from my purchases go, giving preference
+          <br />
+          <p className="sm:indent-6">
+            Therefore, I pledge to consider where the profits from my purchases go, giving preference
           to Profit for Good businesses where possible. I pledge, within 30 days of making this pledge,
           to make at least one purchase from a Profit for Good business.	
           </p>
-          <p>
-          I make this pledge to help prove that we the consumers of the world want the profit from
+          <br />
+          <p className="sm:indent-6">
+            I make this pledge to help prove that we the consumers of the world want the profit from
           our purchases to go toward making a better world, and, where given the choice, we will
           buy the change we want to see in the world.	
           </p>
-       {/*   I realize that my purchases have the power to do good. My purchases can save lives, lift
-          people out of poverty, save our environment, and otherwise promote amorejust and happy
-          world for all. I understand that in buying from Profit for Good businesses, I can be a part of
-          directing our species' proftis toward creating the world we want to see.
-          <br />
-          Therefore, I pledge to consider where the profits from my purchases go, giving preference
-          to Profit for Good businesses where possible. I pledge, within 30 days of making this pledge,
-          to make at least one purchase from a Profit for Good business.
-          <br />
-          I make this pledge to help prove that we the consumers of the world want the profit from
-          our purchases to go toward making a better world, and, where given the choice, we will
-          buy the change we want to see in the world.*/}
+
         </div>
 
         <div className="flex flex-wrap justify-center space-x-2 w-full">
@@ -111,17 +102,6 @@ export default function Pledge({ text, classes }){
 
   </Popup>
 
-
- // <Popup trigger={
-
- // 	<Button text={text} classes={classes}/>
-// 	} 
-
-// 	position="right center">
-
- //    <div>Popup content here !!</div>
- //    <div className="text-orange">QKLNEJFQKWF</div>
- //  </Popup>
 
 
 		)

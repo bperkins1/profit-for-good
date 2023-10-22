@@ -31,7 +31,7 @@ export default function Pledge({ text, classes }){
           I realize that my purchases have the power to do good. My purchases can save lives, lift
           people out of poverty, save our environment, and otherwise promote amorejust and happy
           world for all. I understand that in buying from Profit for Good businesses, I can be a part of
-          directing our species' proftis toward creating the world we want to see.	
+          directing our species&apos; proftis toward creating the world we want to see.	
           </p>
           <br />
           <p className="sm:indent-6">
